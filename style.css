@@ -1,0 +1,289 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 6px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fff;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #8e8e71;
+}
+.nav-desktop {
+  /* margin-top: 8px; */
+  width: 100%;
+  height: 62px;
+  background-color: #a89279;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 100%;
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar li {
+  height: 100%;
+  display: inline;
+}
+.btn-register {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+.navbar li img {
+  position: absolute;
+  top: 21px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 21px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header */
+
+.wrapper-header {
+  width: 100%;
+  background-color: #d9d9d9;
+}
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 29px;
+}
+.search-input {
+  width: 331px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 49px;
+}
+input {
+  border: none;
+  width: 100%;
+  background-color: none;
+  margin-left: 20px;
+}
+input:focus {
+  outline: none;
+}
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 88px;
+  margin-top: 41px;
+  padding-bottom: 14px;
+}
+.category-filter {
+  position: absolute;
+  right: 20px;
+  display: flex;
+}
+.category-filter h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.img-filter {
+  margin-top: -20px;
+}
+/* Main */
+.button-category {
+  padding-top: 31px;
+  margin: 0 150px;
+  padding-bottom: 53px;
+}
+.button-category button {
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: none;
+  margin-right: 37px;
+}
+
+.product {
+  padding-bottom: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.card-product {
+  width: 300px;
+  height: 441px;
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 46px;
+}
+.item-card {
+  width: 271px;
+  height: 376px;
+  margin: auto;
+  text-align: center;
+}
+.img-product {
+  width: 271px;
+  height: 185px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 60%;
+  height: 90%;
+}
+.item-card h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.item-card p {
+  font-size: 12px;
+  margin: 15px 30px;
+}
+.item-card h3 {
+  font-size: 16px;
+  color: red;
+  margin-bottom: 20px;
+}
+.item-card button {
+  padding: 11px 37px;
+  color: white;
+  background-color: #8e8e71;
+  border: none;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding-bottom: 103px;
+}
+.pagination button {
+  width: 44px;
+  height: 42px;
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* rekomendasi */
+.rekomendasi {
+  margin: 0 150px;
+  padding-bottom: 73px;
+}
+.rekomendasi p {
+  font-size: 20px;
+}
+
+/* footer */
+.wrapper-footer {
+  width: 100%;
+  background-color: #d9d9d9;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+  padding-bottom: 50px;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 348px;
+  height: 221px;
+  margin-top: 77px;
+}
+.address h2 {
+  font-size: 32px;
+  font-weight: normal;
+  margin-top: 73px;
+  margin-bottom: 35px;
+}
+.address p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.address span {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 35px;
+}
+
+.contact {
+  margin-top: 158px;
+}
+.contact p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.whatsapp {
+  background: none;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 22px;
+  margin-bottom: 27px;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.social-media button {
+  background: none;
+  border: none;
+}
